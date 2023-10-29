@@ -8,7 +8,7 @@ import CardTesti from '@/components/CardTesti.vue'
 
 <template>
   <div class="container mx-auto text-white">
-    <header class="pt-10">
+    <header class="pt-10 bg-[url('@/assets/img/hero.jpg')] h-[700px] mx-auto">
       <nav class="flex justify-between mx-10">
         <div class="">
           <h1>Logo</h1>
@@ -25,7 +25,7 @@ import CardTesti from '@/components/CardTesti.vue'
           <a class="px-4 py-2 font-semibold border rounded-full"> Get Start </a>
         </div>
       </nav>
-      <div class="flex flex-col items-center my-[60px] space-y-5 mt-[60px]">
+      <div class="flex flex-col items-center my-[60px] space-y-5 mt-[100px]">
         <div class="flex space-x-4">
           <font-awesome-icon icon="fa-brands fa-instagram" size="xl" />
           <font-awesome-icon icon="fa-brands fa-twitter" size="xl" />
@@ -51,9 +51,10 @@ import CardTesti from '@/components/CardTesti.vue'
             </span>
           </button>
         </div>
+        <!-- <img class="absolute" src="@/assets/img/hero.jpg" alt="" /> -->
       </div>
     </header>
-    <section class="px-2 sm:px-10 sm:mt-[140px]">
+    <section class="px-2 sm:px-10 sm:mt-[140px] mt-[40px]">
       <div class="flex flex-col justify-center sm:space-y-8">
         <h1 class="text-3xl sm:text-6xl">
           Companies that can help you in
